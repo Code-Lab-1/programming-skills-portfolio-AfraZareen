@@ -1,6 +1,3 @@
 names = ["Ayesha" , "Emaan" , "Yashvi" , "Samantha"]
-message = "Hello"
-print(message , names[0])
-print(message , names[1])
-print(message , names[2])
-print(message , names[3])
+for i in names:
+    print("Hello!" , i)

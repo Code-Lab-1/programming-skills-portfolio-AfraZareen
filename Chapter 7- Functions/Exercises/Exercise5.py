@@ -1,6 +1,6 @@
 def describe_city(city, country = 'United Kingdom'):
     """Describe a city"""
-    msg = f"{city.title()} is in {country.title()}."
+    msg = f"{city} is in {country}."
     print(msg)
 describe_city("London")
 describe_city("Paris" , "Europe")

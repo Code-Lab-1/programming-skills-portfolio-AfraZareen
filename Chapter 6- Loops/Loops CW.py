@@ -11,3 +11,7 @@ sum = 0
 for val in numbers:
     sum = sum + val
     print("The sum is" , sum)
+#Range
+print(range(10))
+for i in range(2,20,2):
+    print(i)

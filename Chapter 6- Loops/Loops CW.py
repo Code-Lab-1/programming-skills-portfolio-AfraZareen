@@ -15,3 +15,11 @@ for val in numbers:
 print(range(10))
 for i in range(2,20,2):
     print(i)
+
+import turtle
+circle = 300
+radius = 80
+angle = 80
+for i in range(circle):
+  turtle.circle(radius)
+  turtle.left(angle)
